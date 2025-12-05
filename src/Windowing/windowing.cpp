@@ -3,7 +3,7 @@
 #include "../Input Processing/input.hpp"
 #include "windowing.hpp"
 
-GLFWwindow* Windowing::initializeWindowingSystem(int width, int height, std::string title)
+GLFWwindow* Windowing::InitializeWindowingSystem(int width, int height, std::string title)
 {
 	// Initialize GLFW
 	glfwInit();
@@ -41,7 +41,7 @@ GLFWwindow* Windowing::initializeWindowingSystem(int width, int height, std::str
 	glfwSetFramebufferSizeCallback(window, framebuffer_size_callback);
 
 	// Set key callback for input processing
-	glfwSetKeyCallback(window, Inputs::processInput);
+	glfwSetKeyCallback(window, Inputs::ProcessInput);
 
 	return window;
 }

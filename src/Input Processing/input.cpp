@@ -3,7 +3,7 @@
 #include "input.hpp"
 
 // Function to process input
-void Inputs::processInput(GLFWwindow* window, int key, int scancode, int action, int mods)
+void Inputs::ProcessInput(GLFWwindow* window, int key, int scancode, int action, int mods)
 {
 	// Process key inputs
 	if (key == GLFW_KEY_ESCAPE && action == GLFW_PRESS) Escape(window);

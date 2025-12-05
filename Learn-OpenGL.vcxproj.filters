@@ -30,6 +30,9 @@
     <ClCompile Include="src\Windowing\windowing.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="src\Vertex Array\vertexarray.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\Windowing\windowing.hpp">
@@ -41,5 +44,16 @@
     <ClInclude Include="src\Input Processing\input.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="src\Vertex Array\vertexarray.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resource\position.vert.glsl">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resource\color.frag.glsl">
+      <Filter>Resource Files</Filter>
+    </None>
   </ItemGroup>
 </Project>

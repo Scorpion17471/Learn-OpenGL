@@ -132,12 +132,18 @@
     <ClCompile Include="src\Input Processing\input.cpp" />
     <ClCompile Include="src\main.cpp" />
     <ClCompile Include="src\Shaders\shaders.cpp" />
+    <ClCompile Include="src\Vertex Array\vertexarray.cpp" />
     <ClCompile Include="src\Windowing\windowing.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\Input Processing\input.hpp" />
     <ClInclude Include="src\Shaders\shaders.hpp" />
+    <ClInclude Include="src\Vertex Array\vertexarray.hpp" />
     <ClInclude Include="src\Windowing\windowing.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resource\color.frag.glsl" />
+    <None Include="resource\position.vert.glsl" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

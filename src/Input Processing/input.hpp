@@ -10,7 +10,7 @@
 static class Inputs {
 public:
 	// Function to process input
-	static void processInput(GLFWwindow* window, int key, int scancode, int action, int mods);
+	static void ProcessInput(GLFWwindow* window, int key, int scancode, int action, int mods);
 private:
 	// Escape key processing (Close)
 	static void Escape(GLFWwindow* window);
